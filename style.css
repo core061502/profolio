@@ -205,7 +205,7 @@ textarea {
   color: #f7f7f5;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0.12) 38%, rgba(0, 0, 0, 0.72) 100%),
-    url("images/hero.svg") center / cover no-repeat;
+    url("images/hero.avif") center / cover no-repeat;
 }
 
 .hero-inner {
