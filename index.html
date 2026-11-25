@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="새로운 경험과 배움을 통해 성장하는 대학생 김서진의 개인 포트폴리오."
+    />
+    <title>KIM SEOJIN — Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="header" data-header>
+      <a class="logo" href="#home">SEOJIN</a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-menu-toggle
+      >
+        <span class="menu-toggle-lines" aria-hidden="true"></span>
+        <span class="visually-hidden">메뉴</span>
+      </button>
+      <nav class="nav" id="site-nav" data-nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <p class="hero-kicker">Personal Portfolio</p>
+          <h1>
+            <span>KIM SEOJIN</span>
+            <span class="hero-sub">— PERSONAL PORTFOLIO</span>
+          </h1>
+        </div>
+        <a class="scroll-cue" href="#about">
+          <span>Scroll</span>
+        </a>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-inner">
+          <p class="section-index reveal">01 — About</p>
+          <div class="about-copy reveal">
+            <h2>소개</h2>
+            <p class="lead">
+              새로운 경험과 배움을 통해 꾸준히 성장하는 대학생 김서진입니다.
+            </p>
+            <p class="body-copy">
+              익숙한 방식에 머물기보다, 배우고 시도하고 정리하는 과정을 반복합니다.
+              전공에서 쌓은 기초 위에 새로운 도구와 경험을 더하며 시야를 조금씩
+              넓혀 가고 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-inner">
+          <div class="section-head reveal">
+            <p class="section-index">02 — Projects</p>
+            <h2>프로젝트</h2>
+          </div>
+          <ul class="project-grid">
+            <li class="project-card reveal">
+              <article>
+                <figure>
+                  <img
+                    src="images/project-study.svg"
+                    alt="노트와 책, 스탠드가 놓인 학습 공간을 흑백으로 표현한 그림"
+                    width="800"
+                    height="600"
+                  />
+                </figure>
+                <div class="project-body">
+                  <p class="project-num">01</p>
+                  <h3>전공 학습</h3>
+                  <p>
+                    수업에서 만난 개념을 노트로 구조화하고, 작은 연습으로 이해한
+                    내용을 확인하는 학습 기록입니다.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="project-card reveal">
+              <article>
+                <figure>
+                  <img
+                    src="images/project-ai.svg"
+                    alt="점과 선으로 연결된 네트워크를 표현한 흑백 그림"
+                    width="800"
+                    height="600"
+                  />
+                </figure>
+                <div class="project-body">
+                  <p class="project-num">02</p>
+                  <h3>AI 활용 프로젝트</h3>
+                  <p>
+                    AI를 결과의 대체가 아닌 생각의 도구로 사용합니다. 질문을
+                    다듬고, 초안을 비교한 뒤 스스로 기준을 세워 고칩니다.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="project-card reveal">
+              <article>
+                <figure>
+                  <img
+                    src="images/project-life.svg"
+                    alt="도시 거리와 걷는 실루엣을 단순하게 그린 흑백 그림"
+                    width="800"
+                    height="600"
+                  />
+                </figure>
+                <div class="project-body">
+                  <p class="project-num">03</p>
+                  <h3>개인 활동</h3>
+                  <p>
+                    수업 밖의 경험도 배움으로 남깁니다. 기록하고 돌아보며 다음에
+                    시도할 방향을 천천히 찾아갑니다.
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-inner contact-layout">
+          <div class="reveal">
+            <p class="section-index">03 — Contact</p>
+            <h2>연락</h2>
+            <p class="body-copy">
+              협업 제안, 질문, 가벼운 인사 모두 환영합니다. 아래 폼은 화면에서
+              동작을 확인하는 시연용이며, 입력한 내용은 전송되지 않습니다.
+            </p>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">이름</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <p class="field-error" data-error-for="name"></p>
+            </div>
+            <div class="field">
+              <label for="email">이메일</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              />
+              <p class="field-error" data-error-for="email"></p>
+            </div>
+            <div class="field">
+              <label for="message">메시지</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="field-error" data-error-for="message"></p>
+            </div>
+            <button class="submit" type="submit">메시지 남기기</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright 2026 KIM SEOJIN</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
